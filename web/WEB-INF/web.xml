@@ -5,9 +5,11 @@
          version="4.0">
     <display-name>Servlet-Jsp</display-name>
 
+    <request-character-encoding>UTF-8</request-character-encoding>
+
     <servlet>
         <servlet-name>Hello</servlet-name>
-        <servlet-class>Hello</servlet-class>
+        <servlet-class>basic.Hello</servlet-class>
         <load-on-startup>1</load-on-startup>
     </servlet>
     <servlet-mapping>

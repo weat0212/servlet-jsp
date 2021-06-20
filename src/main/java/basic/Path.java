@@ -1,3 +1,5 @@
+package basic;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -22,7 +24,7 @@ public class Path extends HttpServlet {
         out.print("<!DOCTYPE html>");
         out.print("<html>");
         out.print("<head>");
-        out.print("<title>Path Servlet</title>");
+        out.print("<title>basic.Path Servlet</title>");
         out.print("</head>");
         out.print("<body>");
         out.printf("%s<br>", req.getRequestURI());

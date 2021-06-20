@@ -1,3 +1,5 @@
+package basic;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -23,7 +25,7 @@ public class Mapping extends HttpServlet {
         out.print("<!DOCTYPE html>");
         out.print("<html>");
         out.print("<head>");
-        out.print("<title>Mapping Servlet</title>");
+        out.print("<title>basic.Mapping Servlet</title>");
         out.print("</head>");
         out.print("<body>");
         out.printf("%s<br>", mapping.getMappingMatch());
